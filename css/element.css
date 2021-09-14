@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,900;1,100;1,900&family=Open+Sans:wght@300;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-main: 'Montserrat', sans-serif;
+    --font-open:'Open Sans', sans-serif;
+    --font-primary: #06122a;
+    --light-gray-color: #eeeeee;
+    --gap: 3rem;
+}
+html{
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-open);
+    font-size: 2rem;
+    color: var(--font-primary);
+    line-height: 1.5;
+    
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-main);
+}
+h2{
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: 5rem;
+    line-height: 1.2;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 2.5rem;
+}
+
+.reponsive-table{
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+table{  
+    min-width: 360px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td, table th{
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid var(--light-gray-color);
+}
+tfoot td{
+    text-align: right;
+}
+
+tfoot td, table th{
+    background: var(--light-gray-color);
+}
